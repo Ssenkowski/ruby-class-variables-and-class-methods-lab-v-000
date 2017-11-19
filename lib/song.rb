@@ -26,10 +26,10 @@ class Song
   end
 
   def genre_count
-    genre_name = {}
+    @@genre_count = {}
   end
 
   def artist_count
-    artist_name = {}
+    @@artist_count = {}
   end
 end
