@@ -33,6 +33,6 @@ class Song
   end
 
   def artist_count=(artist)
-    @@artist_count = {}
+    artist_count = {}
   end
 end
