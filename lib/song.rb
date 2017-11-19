@@ -33,7 +33,7 @@ class Song
     @@genre_count << @genre
   end
 
-  def artist_count=(artist)
+  def artist_count=(artist_count)
     @artist = artist
     @@artist_count << @artist
   end
