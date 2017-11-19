@@ -34,7 +34,7 @@ class Song
   end
 
   def artist_count=(artist_count)
-    @artist = artist
+    @artist = artist_count
     @@artist_count << @artist
   end
 end
