@@ -28,7 +28,7 @@ class Song
     @@artists.uniq!
   end
 
-  def genre_count
+  def genre_count=(genre)
     @@genre_count = {"#{genre}" => "@name.count"}
   end
 
