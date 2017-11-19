@@ -29,7 +29,7 @@ class Song
   end
 
   def genre_count=(genre_count)
-    @genre = genre
+    @genre = genre_count
     @@genre_count << @genre
   end
 
