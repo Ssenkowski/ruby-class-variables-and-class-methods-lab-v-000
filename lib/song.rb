@@ -24,7 +24,7 @@ class Song
   end
 
   def genre_count
-    genre_name = {"#{songs}"}
+    genre_name = {}
   end
 
 end
