@@ -35,6 +35,6 @@ class Song
 
   def artist_count=(artist)
     @artist = artist
-    @@artist_count <<
+    @@artist_count << {"#{artist}" => "@name.count"}
   end
 end
