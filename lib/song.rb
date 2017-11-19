@@ -29,7 +29,7 @@ class Song
   end
 
   def genre_count=(genre)
-    @@genre_count = {"#{genre}" => "@name.count"}
+    genre_count = {"#{genre}" => "@name.count"}
   end
 
   def artist_count=(artist)
